@@ -1,8 +1,30 @@
-# React + Vite
+# Responsive Photosnap SPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Responsive SPA made using React JS
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of contents
+
+- [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
+
+
+### Links
+
+✔️ Live Site URL: [GitHub Pages](https://moisalexweb.github.io/photosnap-spa/)
+
+### Built with
+
+✔️ Semantic HTML5 markup <br>
+✔️ React JS <br>
+✔️ useState and useEffect hooks <br>
+✔️ Custom hooks <br>
+✔️ React Router <br>
+✔️ <a href="https://sass-lang.com/">SASS</a> - CSS preprocessor <br>
+
+
+## Author
+
+- Frontend Mentor - [@MoisalexWeb](https://www.frontendmentor.io/profile/MoisalexWeb)
+- Instagram - [@moisalexweb_sw](https://www.instagram.com/moisalexweb_sw/)
