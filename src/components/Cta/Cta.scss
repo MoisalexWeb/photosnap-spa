@@ -1,0 +1,16 @@
+.cta-link {
+    display: inline-flex;
+    width: max-content;
+    height: max-content;
+    align-items: center;
+    grid-gap: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+        grid-gap: 10px;
+    }
+}

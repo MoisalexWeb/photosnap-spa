@@ -1,0 +1,115 @@
+.pricingCard {
+    color: #000;
+    background-color: #dfdfdf;
+    // max-width: 500px;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+
+    &--main {
+        color: #fff;
+        background-color: #000;
+        transform: scale(1.08);
+    }
+
+    &-price {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    &-plan {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    &-time {
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    &-cta {
+        background-color: #000;
+        color: #fff;
+        display: inline-block;
+        width: 100%;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+
+        &:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+
+    &--main &-cta {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .pricingCard {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 70px;
+
+        &--main {
+            transform: scale(1);
+        }
+
+        &-price {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+        }
+
+        &-time {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            margin-top: -20px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .pricingCard {
+        grid-column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .pricingCard {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 0 auto;
+
+        &-price, &-time {
+            grid-column: 1 / -1;
+            grid-row: initial;
+            margin-top: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .pricingCard-plan {
+        font-size: 35px;
+    }
+
+    .pricingCard-price {
+        font-size: 30px;
+    }
+}
