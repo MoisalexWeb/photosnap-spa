@@ -12,16 +12,16 @@ const Footer = () => {
 
                     <ul className="footer__nav__link">
                         <li>
-                            <NavLink to="/" className="footer__nav__link-link">home</NavLink>
+                            <NavLink to="/photosnap-spa/" className="footer__nav__link-link">home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/stories" className="footer__nav__link-link">stories</NavLink>
+                            <NavLink to="/photosnap-spa/stories" className="footer__nav__link-link">stories</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/features" className="footer__nav__link-link">features</NavLink>
+                            <NavLink to="/photosnap-spa/features" className="footer__nav__link-link">features</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/pricing" className="footer__nav__link-link">pricing</NavLink>
+                            <NavLink to="/photosnap-spa/pricing" className="footer__nav__link-link">pricing</NavLink>
                         </li>
                     </ul>
                 </div>
