@@ -12,7 +12,7 @@ This is a Responsive SPA made using React JS
 
 ### Links
 
-✔️ Live Site URL: [GitHub Pages](https://moisalexweb.github.io/photosnap-spa/)
+✔️ Live Site URL: [Netlify](https://photosnap-spa.netlify.app/)
 
 ### Built with
 
