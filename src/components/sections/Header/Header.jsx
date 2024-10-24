@@ -17,16 +17,16 @@ const Header = () => {
 
                 <ul className="nav__ul">
                     <li>
-                        <NavLink to="/photosnap-spa/" className="nav__ul-link" onClick={mobileCloseMenu}>home</NavLink>
+                        <NavLink to="/" className="nav__ul-link" onClick={mobileCloseMenu}>home</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/photosnap-spa/stories" className="nav__ul-link" onClick={mobileCloseMenu}>stories</NavLink>
+                        <NavLink to="/stories" className="nav__ul-link" onClick={mobileCloseMenu}>stories</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/photosnap-spa/features" className="nav__ul-link" onClick={mobileCloseMenu}>features</NavLink>
+                        <NavLink to="/features" className="nav__ul-link" onClick={mobileCloseMenu}>features</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/photosnap-spa/pricing" className="nav__ul-link" onClick={mobileCloseMenu}>pricing</NavLink>
+                        <NavLink to="/pricing" className="nav__ul-link" onClick={mobileCloseMenu}>pricing</NavLink>
                     </li>
                     <li>
                         <a href="#" className="nav__ul-link nav__ul-link--btn" onClick={mobileCloseMenu}>get an invite</a>

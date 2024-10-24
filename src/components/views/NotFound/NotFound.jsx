@@ -5,9 +5,9 @@ import { Link } from "react-router-dom"
 const NotFound = () => {
     return (
         <section className="notFound">
-            <h1 className="notFound-title">Recurso no encontrado ❌</h1>
+            <h1 className="notFound-title">Resource not found ❌</h1>
             <img src={gif404} alt="This is fine gif" className="notFound-img" />
-            <Link className="notFound-link" to="/">Ir al inicio</Link>
+            <Link className="notFound-link" to="/">Go to home</Link>
         </section>
     )
 }

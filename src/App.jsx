@@ -17,11 +17,11 @@ function App() {
 
 			<main>
 				<Routes>
-					<Route path='/photosnap-spa/' element={<Home />}></Route>
-					<Route path='/photosnap-spa/stories' element={<Stories />}></Route>
-					<Route path='/photosnap-spa/features' element={<Features />}></Route>
-					<Route path='/photosnap-spa/pricing' element={<Pricing />}></Route>
-					<Route path='/photosnap-spa/*' element={<NotFound />}></Route>
+					<Route path='/' element={<Home />}></Route>
+					<Route path='/stories' element={<Stories />}></Route>
+					<Route path='/features' element={<Features />}></Route>
+					<Route path='/pricing' element={<Pricing />}></Route>
+					<Route path='/*' element={<NotFound />}></Route>
 				</Routes>
 			</main>
 
